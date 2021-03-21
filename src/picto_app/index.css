@@ -1,0 +1,423 @@
+
+
+body{
+  font-family: Tahoma, Verdana, Segoe, sans-serif;   
+  position: fixed;
+  background: whitesmoke
+
+}
+
+.main{
+  position: relative;
+  width: 100vw;
+  height: 95vh;
+}
+
+.picto_1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 95vh;
+  background: whitesmoke
+}
+
+.picto_1_mobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 95vw;
+  height: 95vh;
+  background: whitesmoke
+}
+
+
+.right_side_picto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: auto;
+  height: 100%;
+}
+
+.bottom_side_picto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50vh;
+}
+
+.left_side_picto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: auto;
+  height: 100%;
+}
+
+.top_side_picto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 40vh;
+
+}
+
+.btn_1{
+  border: none;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: 700px;
+  outline: none;
+  overflow: hidden;
+  background: none;
+}
+
+.btn_1_mobile{
+  border: none;
+  position: relative;
+  width: auto;
+  height: auto;
+  outline: none;
+  overflow: hidden;
+  background: none;
+}
+
+.btn_1:hover{
+  cursor: pointer;
+}
+
+.bez_window{
+  height: auto;
+  width: 100%;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(54, 54, 54);
+
+}
+
+
+
+.image_1{
+  max-width: 40vw;
+  max-height: 70vh;
+  height: auto;
+  width: auto; 
+}
+
+
+.btn_cancel{
+  position: absolute;
+  background: silver;
+  outline: none;
+  border: none;
+  right: 0px;
+  top: 0px;
+  width: 25px;
+  height: 25px;
+  border-bottom-left-radius: 25px;
+}
+.btn_cancel:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/**
+
+Multi image show
+
+
+*/
+
+.btn_2{
+  display: block;
+  position: relative;
+  width: 525px;
+  height: 70vh;
+  padding-top: 5px;
+  background: rgb(63, 63, 63);
+  outline: none;
+  border: none;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1em;
+  
+}
+
+.btn_2_mobile{
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 100%;
+  padding-top: 5px;
+  background: rgb(63, 63, 63);
+  outline: none;
+  border: none;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1em;
+  
+}
+
+.btn_2:hover{
+  cursor: pointer;
+}
+
+.listItem{
+  flex: 50%;
+  
+
+  
+}
+
+.image_cube_div{
+  position: relative;
+  margin: 5px;
+
+}
+
+.image_cube{
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+    send Button
+
+*/
+.middle_place{
+  position: relative;
+  width: 20%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.sendBtn_div{
+  height: auto;
+  width: 100px;
+  
+}
+
+
+
+
+
+
+.sendBtn {
+	cursor: pointer;
+	position: relative;
+  height: 100px;
+  width: 100px;
+	border-radius: 50%;
+	line-height: 2.5rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+  outline: none;
+	
+	border: 1px solid #012880;
+	background-image: linear-gradient(-180deg, #FF89D6 0%, #C01F9E 100%);
+	box-shadow: 0 1rem 1.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(110, 15, 155, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgba(180, 70, 207, 1) inset;
+  
+              
+}
+
+.sendBtn_span{
+  color: transparent;
+  background-image: linear-gradient(0deg, #EE82DA 0%, #FEFAFD 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: drop-shadow(0 2px 2px hsla(290, 100%, 20%, 1));
+}
+
+
+
+.sendBtn::before {
+	content: "";
+	display: block;
+	height: 0.25rem;
+	position: absolute;
+	top: 0.5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	width: calc(100% - 7.5rem);
+	background: #fff;
+	border-radius: 100%;
+	
+	opacity: 0.7;
+	background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%);
+}
+
+.sendBtn::after {
+	content: "";
+	display: block;
+	height: 0.25rem;
+	position: absolute;
+	bottom: 0.75rem;
+	left: 50%;
+	transform: translateX(-50%);
+	width: calc(100% - 7.5rem);
+	background: #fff;
+	border-radius: 100%;
+	
+	filter: blur(1px);
+	opacity: 0.05;
+	background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%);
+}
+
+
+
+
+.sendBtn_mobile {
+	cursor: pointer;
+	position: absolute;
+  left: 50px;
+  top: 50px;
+  height: 100px;
+  width: 100px;
+	border-radius: 50%;
+	line-height: 2.5rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+  outline: none;
+	
+	border: 1px solid #012880;
+	background-image: linear-gradient(-180deg, #FF89D6 0%, #C01F9E 100%);
+	box-shadow: 0 1rem 1.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(110, 15, 155, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgba(180, 70, 207, 1) inset;
+  
+              
+}
+
+
+
+
+
+
+
+/*
+
+response view
+*/
+
+.picto_2{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 95vh;
+  background: none;
+
+}
+
+.btn_finish{
+  position: relative;
+  width: auto;
+  height: 85vh;
+  background: none;
+  outline: none;
+  overflow: hidden;
+  border: none;
+
+}
+
+.btn_finish:hover{
+  cursor: pointer;
+
+}
+
+.image_finish{
+  position: relative;
+  width: auto;
+  height: 100%;
+  max-width: 80vw;
+
+}
+
+
+
+
+
+
+/* lade buildschirm
+*/
+
+.loaderScreen{
+  background: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/*
+   info button
+*/
+
+.btn_info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  overflow: hidden;
+  background: none;
+  border-radius: 50%;
+}
+
+.btn_info:hover{
+  cursor: pointer;
+  color: white;
+  background: black;
+}

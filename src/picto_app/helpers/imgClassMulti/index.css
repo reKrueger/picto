@@ -1,0 +1,208 @@
+
+
+  
+  .ImgSizeDialog{
+    position: absolute;
+    max-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.imgSizeFrame{
+  position: relative;
+  width: 100vh;
+  height: 100vh;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 6%;
+  overflow: hidden;
+
+}
+
+.imgSizeFrameMobil{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+.imgSizeHeadDiv{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  background: none;
+}
+
+.imgSizeHeadDivReturnBtnI{
+  position: relative;
+  right: 18px;
+  top: 4px;
+  border: none;
+  background: none;
+  outline: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: rgb(172, 172, 172);
+  margin-top: 1%;
+}
+.imgSizeHeadDivReturnBtnI:hover{
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .crop-container {
+    position: relative;
+    height: 25em;
+    max-height: 25em;
+    overflow: hidden;
+    border: 2px solid, black;
+  }
+  .crop{
+  }
+  
+  
+  
+  .buttonAuswahlConImgSize {
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .buttonAuswahl{
+    position: relative;
+    margin-top: 10px;
+    border: none;
+    background: none;
+    outline: none;
+    height: 50px;
+    width: 180px;
+    font-size: 25px;
+    color: rgb(144, 176, 164);
+    border-radius: 9px;
+  }
+
+  .buttonAuswahl:hover{
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* outside class   .........*/
+.ggg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}  
+
+.picPos{
+  /* größe vom Bild anpassen*/
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 1;
+  z-index: 0;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_upload{
+  opacity: 1;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  pointer-events: none
+}
+.hidden{
+  opacity: 0;
+  width: 40%;
+  height: 60px;
+  position: relative;
+  z-index: 10;
+  left: 0px;
+  top: 0px;
+  background: none;
+}
+.hidden:hover{
+  cursor: pointer;
+}
+
+.fakefile {
+    z-index: 3;
+    width: 100%;
+    height: 100%; 
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(139, 139, 139);
+}
+.fakefile:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.heicSpinner{
+  position: relative;
+  height: 100%;
+}
+
+
+
+
+
+
