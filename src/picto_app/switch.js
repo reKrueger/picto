@@ -1,5 +1,5 @@
 
-const local = true
+const local = false
 
 let num = null
 if(!local){
@@ -10,11 +10,11 @@ if(!local){
 
 
 
-const API_PATH = ['wss://archa-backend.herokuapp.com/ws/telegraph/','ws://localhost:3000/ws/telegraph/']
+const API_PATH = ['none','ws://localhost:3000/ws/telegraph/']
 
 
 
-const API_URL = ['https://archa-backend.herokuapp.com','http://127.0.0.1:3000']
+const API_URL = ['https://createpicto.herokuapp.com','http://127.0.0.1:3000']
 
 
 
